@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTollbarManhinhchinh">#f9990a</color>
+    <color name="mauKhungwhere">#741dc1</color>
+    <color name="colorDen">#222222</color>
+    <color name="colorListviewItembalo">#ed8a6f</color>
+    <color name="colorb4ed6a">#b4ed6a</color>
+    <color name="colorItemNavigation">#913fde</color>
+    <color name="colorXanhbutton">#25baff</color>
+    <color name="colorLuachonlaiyout">#fc6868</color>
+</resources>

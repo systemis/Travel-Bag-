@@ -1,0 +1,40 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="canle6">6dp</dimen>
+    <dimen name="canle5">15dp</dimen>
+    <dimen name="kichthuoc60">40dp</dimen>
+    <dimen name="canle80">70dp</dimen>
+    <dimen name="canle100">100dp</dimen>
+    <dimen name="rong200">200dp</dimen>
+    <dimen name="cao200">200dp</dimen>
+    <dimen name="rong40">40dp</dimen>
+    <dimen name="cao40">40dp</dimen>
+    <dimen name="canle20">20dp</dimen>
+    <dimen name="kichthuoc19">19dp</dimen>
+    <dimen name="kichthuoc20">20dp</dimen>
+    <dimen name="canle12">12dp</dimen>
+    <dimen name="canle15">15dp</dimen>
+    <dimen name="kichthuoc10">10dp</dimen>
+    <dimen name="kichthuoc200">200dp</dimen>
+    <dimen name="kichthuoc120">120dp</dimen>
+    <dimen name="canle30">30dp</dimen>
+    <dimen name="canle16">16dp</dimen>
+    <dimen name="canle10">10dp</dimen>
+    <dimen name="kichthuoc100">100dp</dimen>
+    <dimen name="kichthuoc25">25dp</dimen>
+    <dimen name="canle5d">5dp</dimen>
+    <dimen name="kichthuoc12">12dp</dimen>
+    <dimen name="canle27">27dp</dimen>
+    <dimen name="kichthuoc160">160dp</dimen>
+    <dimen name="canle23">23dp</dimen>
+    <dimen name="kichthuoc70">70dp</dimen>
+    <dimen name="canle120">120dp</dimen>
+    <dimen name="kichthuoc18">18dp</dimen>
+    <dimen name="canle3">3dp</dimen>
+    <dimen name="canle40">40dp</dimen>
+    <dimen name="canle110">110dp</dimen>
+    <dimen name="canle105">105dp</dimen>
+    <dimen name="kichthuoc155">155dp</dimen>
+</resources>

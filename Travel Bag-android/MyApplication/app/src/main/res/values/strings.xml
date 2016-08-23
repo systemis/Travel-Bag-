@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Travel Bag App</string>
+    <string name="Mo">Open</string>
+    <string name="Dong">Close</string>
+    <string name="textHintWhere">Ban định đi đâu</string>
+    <string name="gioihanchuyendichoitext">Giới hạn chuyến đi:</string>
+    <string name="khihauchuyendichoitext">Khí hậu nơi du lịch :</string>
+    <string name="diahinhchuyendichoitext">Địa hình nơi du lịch :</string>
+</resources>

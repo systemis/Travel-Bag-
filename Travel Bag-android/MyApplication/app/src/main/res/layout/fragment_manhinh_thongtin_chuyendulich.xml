@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/kichthuoc155"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/kichthuoc18"
+            android:textColor="@color/colorDen"
+            android:text="Địa điểm du lịch: "
+            android:layout_marginTop="1dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDen"
+            android:id="@+id/hienthidiadiemdulich"
+            android:editable="false"
+            android:text="Da nang "
+            android:textSize="@dimen/canle20"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:layout_marginLeft="@dimen/canle3"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="@dimen/kichthuoc155"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/kichthuoc18"
+            android:textColor="@color/colorDen"
+            android:text="Địa hình du lịch: "
+            android:layout_marginTop="1dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDen"
+            android:id="@+id/hienthidiahinhchuyendulich"
+            android:editable="false"
+            android:text="Nui"
+            android:textSize="@dimen/canle20"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:layout_marginLeft="@dimen/canle3"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="@dimen/kichthuoc155"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/kichthuoc18"
+            android:textColor="@color/colorDen"
+            android:text="Khí hậu du lịch: "
+            android:layout_marginTop="1dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDen"
+            android:id="@+id/hienthikhihaunoidulich"
+            android:editable="false"
+            android:text="Nóng "
+            android:textSize="@dimen/canle20"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:layout_marginLeft="@dimen/canle3"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="@dimen/kichthuoc155"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/kichthuoc18"
+            android:textColor="@color/colorDen"
+            android:text="Giới hạn chuyến đi:"
+            android:layout_marginTop="1dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDen"
+            android:id="@+id/hienthiGioihanchuyendi"
+            android:editable="false"
+            android:text="3 ngay"
+            android:textSize="@dimen/canle20"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:layout_marginLeft="@dimen/canle3"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="@dimen/kichthuoc155"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/kichthuoc18"
+            android:textColor="@color/colorDen"
+            android:text="Thời gian bắt đầu: "
+            android:layout_marginTop="1dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDen"
+            android:id="@+id/hienthithoigianbatdauchuyendi"
+            android:editable="false"
+            android:text="22/3/4 13:30 "
+            android:textSize="@dimen/canle20"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:layout_marginLeft="@dimen/canle3"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="@dimen/kichthuoc155"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/kichthuoc18"
+            android:textColor="@color/colorDen"
+            android:text="Thời gian du lịch:"
+            android:layout_marginTop="1dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDen"
+            android:id="@+id/hienthithoigianchuyendichoi"
+            android:editable="false"
+            android:text="30 Ngay"
+            android:textSize="@dimen/canle20"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:layout_marginLeft="@dimen/canle3"
+            />
+    </LinearLayout>
+
+</LinearLayout>

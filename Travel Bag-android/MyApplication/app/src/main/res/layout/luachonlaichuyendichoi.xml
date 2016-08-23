@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="330dp"
+    android:layout_height="120dp"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/modellayoutluachonlai"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDen"
+            android:textSize="@dimen/kichthuoc20"
+            android:text="Tên tiêu đề mới "/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/canle5"
+            android:hint="Tieu de moi cua chuyen di choi"
+            android:textSize="15dp"
+            android:text="dnd"
+            android:id="@+id/nhaptieudemoicuachuyendichoi"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="@color/colorDen"
+            android:text="Cap nhap"
+            android:textSize="@dimen/kichthuoc10"
+            android:onClick="onclickCapnhaptentieudemoi"
+            android:id="@+id/capnhaplai"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="@color/colorDen"
+            android:text="Huỷ chuyến đi chơi đã thêm "
+            android:onClick="onclickHuychuyendichoidathem"
+            android:textSize="@dimen/kichthuoc10"
+            android:id="@+id/huychuyendichoidathem"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="@color/colorDen"
+            android:text="hủy "
+            android:textSize="@dimen/kichthuoc10"
+            android:onClick="onClickHuychuyendichoihientai"
+            android:id="@+id/huychuyendichoihientai"/>
+    </LinearLayout>
+
+</LinearLayout>
